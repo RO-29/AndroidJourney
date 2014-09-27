@@ -1,0 +1,25 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:logo="@drawable/ic_launcher"
+    android:id="@+id/mainView">
+   
+   
+ 
+   <ListView
+      android:id="@+id/list"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:divider="#b5b5b5"
+      android:dividerHeight="1dp"/>
+
+        
+   
+</LinearLayout>
+</ViewFlipper>
